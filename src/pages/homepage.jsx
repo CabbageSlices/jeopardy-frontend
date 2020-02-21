@@ -1,9 +1,17 @@
 import React from 'react';
 
 const Homepage = props => (
-    <h1>
-        Hi
-    </h1>
+	<div>
+		<h1>
+				Jeopardy
+		</h1>
+		<button>
+			Host Game
+		</button>
+		<button>
+			Join Game
+		</button>
+	</div>
 )
 
 export default Homepage;
